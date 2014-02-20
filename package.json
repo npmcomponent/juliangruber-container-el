@@ -1,33 +1,11 @@
 {
-  "name": "container-el",
-  "description": "Container element.",
+  "name": "juliangruber-container-el",
+  "description": "A container element.",
   "version": "0.0.1",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/juliangruber/container-el.git"
-  },
-  "homepage": "https://github.com/juliangruber/container-el",
+  "keywords": [],
   "main": "index.js",
-  "scripts": {
-    "test": "tape test/*.js"
-  },
   "dependencies": {
-    "domready": "~0.2.12"
-  },
-  "devDependencies": {
-    "tape": "*"
-  },
-  "keywords": [
-    "container",
-    "element",
-    "el",
-    "browserify",
-    "dom"
-  ],
-  "author": {
-    "name": "Julian Gruber",
-    "email": "mail@juliangruber.com",
-    "url": "http://juliangruber.com"
+    "ded-domready": "git://github.com/npmcomponent/ded-domready.git"
   },
   "license": "MIT"
 }

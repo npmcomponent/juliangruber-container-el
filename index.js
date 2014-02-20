@@ -1,4 +1,4 @@
-var ready = require('domready');
+var ready = require('ded-domready');
 
 var container = document.createElement('div');
 container.id = 'container';
